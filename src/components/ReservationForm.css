@@ -1,0 +1,112 @@
+.reservation-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.06);
+}
+
+.form-title {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: #343a40;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group-half {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #495057;
+  font-size: 0.9em;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 6rem;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-group-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.form-group-checkbox label {
+  margin-bottom: 0;
+  font-weight: normal;
+  color: #495057;
+  cursor: pointer;
+}
+
+.form-checkbox {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: 0.1rem;
+  cursor: pointer;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 1.2rem 2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 0.9em;
+}

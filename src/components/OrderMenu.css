@@ -1,0 +1,77 @@
+.order-menu {
+  margin-top: 1.5rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.6rem;
+  background-color: #ffffff;
+}
+
+.category-tabs {
+  display: flex;
+  border-bottom: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+  border-radius: 0.6rem 0.6rem 0 0;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.category-tab {
+  padding: 0.8rem 1.2rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 0.9em;
+  color: #495057;
+  border-right: 1px solid #dee2e6;
+}
+
+.category-tab:last-child {
+  border-right: none;
+}
+
+.category-tab:hover {
+  background-color: #e9ecef;
+}
+
+.category-tab.active {
+  background-color: #ffffff;
+  color: #007bff;
+  font-weight: 600;
+}
+
+.add-item-controls {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item-select {
+  flex-grow: 1;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.4rem;
+  font-size: 0.9em;
+  min-width: 12rem;
+  background-color: #fff;
+}
+
+.quantity-input {
+  width: 5rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.4rem;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.add-item-button {
+  padding: 0.6rem 1.2rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 500;
+}

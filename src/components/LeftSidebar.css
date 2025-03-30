@@ -1,0 +1,21 @@
+.left-sidebar {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-right: 1px solid #dee2e6;
+  height: 100vh;
+  overflow-y: auto;
+  flex-basis: 20rem;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.sidebar-section {
+  margin-bottom: 2rem;
+}
+
+.sidebar-section h2 {
+  font-size: 1.2em;
+  color: #343a40;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
